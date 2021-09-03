@@ -1,0 +1,79 @@
+/*--General styles--*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #c3e2e3;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+h2, p {
+    font-weight: 200;
+}
+a{
+    text-decoration: none;
+    color:rgb(173, 159, 251);
+}
+a:hover{
+    color:rgb(250, 116, 250);
+    transition: all 300ms ease;
+}
+button{
+    background: rgba(0,71,75,255);
+    width: 80px;
+    border-radius: 0.5rem;
+    color:#fff;
+    padding: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+input{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+/*Main*/
+
+main {
+    width: 100%;
+    height: 83vh;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem auto;
+    padding: 1rem;
+}
+
+.column {
+    background: rgb(250, 250, 250);
+    width: 100%;
+    height: 260px;
+    padding: 1rem;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 1rem;
+}
+footer{
+    background: rgb(29, 29, 29);
+    color:#fff;
+    padding: 0.5rem;
+}

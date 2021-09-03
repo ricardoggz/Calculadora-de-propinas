@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user scalable=yes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500&family=Roboto:ital,wght@0,300;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Tip´s calculator</title>
+</head>
+
+<body>
+    <main>
+        <h1>Calculador de propinas</h1>
+        <div class="calculator">
+            <div class="column selection">
+                <h2>Monto a pagar</h2>
+                <br>
+                <label for="monto">Cantidad de monto</label>
+                <input id="cantidad" type="text" placeholder="$">
+                <br>
+                <br>
+                <h2>Seleccionar cantidad de propina:</h2>
+                <br>
+                <button id="porcentaje-1">5%</button>
+                <button id="porcentaje-2">10%</button>
+                <button id="porcentaje-3">15%</button>
+                <button id="porcentaje-4">25%</button>
+                <button id="porcentaje-5">50%</button>
+                <button id="">Otro</button>
+                <button id="">Borrar</button>
+
+            </div>
+            <div class="column total">
+                <p>Total a pagar</p>
+                <h2 id="total"></h2>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <center>
+            <p>&copy; Creado por <a href="https://ricardoggz.github.io/Portafolio/" target="blank">@ricardo_guevarag</a> - 2021</p>
+        </center>
+        </div>
+    </footer>
+
+    <script src="mainjs/index.js"></script>
+</body>
+
+</html>
